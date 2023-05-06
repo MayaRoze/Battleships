@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a2e04b-d35a-4d73-9f55-668f9c987e00" name="Changes" comment="22.4.23 Elad+Maya, Initial commit.">
+    <list default="true" id="f7a2e04b-d35a-4d73-9f55-668f9c987e00" name="Changes" comment="6.5.23, final before changing to StringBuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -21,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -64,7 +65,7 @@
       <workItem from="1682959539605" duration="40000" />
       <workItem from="1682959611312" duration="1202000" />
       <workItem from="1683093631433" duration="1784000" />
-      <workItem from="1683382966840" duration="1442000" />
+      <workItem from="1683382966840" duration="2507000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.4.23 Elad+Maya, Initial commit.">
       <created>1682183865994</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1682183865994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6.5.23, final before changing to StringBuilder">
+      <created>1683384954113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683384954113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,7 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.4.23 Elad+Maya, Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="22.4.23 Elad+Maya, Initial commit." />
+    <MESSAGE value="6.5.23, final before changing to StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.5.23, final before changing to StringBuilder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

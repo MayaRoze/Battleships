@@ -1,11 +1,7 @@
-import javafx.geometry.Orientation;
-
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.zip.CheckedOutputStream;
 
 public class Main {
     public static Scanner scanner;
@@ -262,8 +258,8 @@ public class Main {
     public static void placeBoats(int[] battleshipsSizes, boolean isUser) {
         for (int i = 0; i < battleshipsSizes.length; i++) {
             if (isUser) {
-                System.out.println(String.format("Enter location and orientation for battleship of size %d"
-                        , battleshipsSizes[i]));
+                System.out.printf("Enter location and orientation for battleship of size %d%n"
+                        , battleshipsSizes[i]);
             }
             while (!placeBoat(battleshipsSizes[i], isUser)) ;
             if (isUser) {
@@ -306,18 +302,18 @@ public class Main {
      */
     public static void printBoard(char[][] board) {
         int nLen = String.valueOf(board.length).length();
-        String output = repeatString(String.valueOf(SPACE_CHAR), nLen);
+        StringBuilder output = new StringBuilder(repeatString(String.valueOf(SPACE_CHAR), nLen));
         for (int i = 0; i < board[0].length; i++) {
-            output += " " + i;
+            output.append(" ").append(i);
         }
-        output += "\n";
+        output.append("\n");
         for (int i = 0; i < board.length; i++) {
-            output += repeatString(String.valueOf(SPACE_CHAR), nLen - String.valueOf(i).length());
-            output += String.valueOf(i);
+            output.append(repeatString(String.valueOf(SPACE_CHAR), nLen - String.valueOf(i).length()));
+            output.append(i);
             for (int j = 0; j < board[0].length; j++) {
-                output += " " + board[i][j];
+                output.append(" ").append(board[i][j]);
             }
-            output += "\n";
+            output.append("\n");
         }
         System.out.println(output);
     }
